@@ -6,16 +6,18 @@ well as the code for the final project.
 
 ## Getting Started
 
+### Environments
+
 In order to use the code in this repository, some specific Python
-environments need to be installed.
+environments need to be created.
 
 ```
-Required:
+Required packages:
 Google Earth Engine Python API (ee)
 ESRI ArcGIS Python API (arcpy)
 ```
 
-### Environments
+### Installing Packages
 
 Google Earth Engine, which typically runs on Javascript inside the GEE client,
 is also available as a Python package.<br/>
