@@ -1,4 +1,4 @@
-# GEOG 5500 Repository
+# GEOG:5500 Repository
 
 This is the repository for my GEOG:5500 class at the University of Iowa. It
 contains the code developed for assignments and quizzes during the class, as
