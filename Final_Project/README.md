@@ -21,8 +21,8 @@ Google Earth Engine (GEE) is a server-based repository of imagery and coding too
 
 ```
 Satellite	  Launched	Decommissioned	Sensor	Resolution
-Landsat 5	  1984	    2013	          TM	    30m
-Landsat 7	  1999	    Operational	    ETM+	  30m
+Landsat 5	  1984	     2013	          TM	    30m
+Landsat 7	  1999	     Operational	    ETM+	  30m
 Landsat 8	  2013    	Operational	    OLI	    30m
 ```
 
