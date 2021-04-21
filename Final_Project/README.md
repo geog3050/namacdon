@@ -20,9 +20,9 @@ The desired objectives of this project are to detect areas that have undergone g
 Google Earth Engine (GEE) is a server-based repository of imagery and coding tools that allows advanced mapping, analysis, and visualization operations to be performed with minimal client-side requirements. This means that users of the service do not need to have high-end computing equipment, expensive software packages, or even high-speed internet access, instead retaining all of these technologically-intensive requirements on the Google servers. GEE’s data catalog includes imagery from the major open-access, space-based Earth Observation (EO) systems, such as Landsat, MODIS, Sentinel, and others, as well as many derived products and other sources of geospatial data. For this project, we will be utilizing the Landsat program’s data.
 
 ```
-Satellite	  Launched	Decommissioned	Sensor	Resolution
+Satellite	  Launched	Decommissioned	Sensor	 Resolution
 Landsat 5	  1984	        2013	          TM	    30m
-Landsat 7	  1999	        Operational	  ETM+	   30m
+Landsat 7	  1999	        Operational	  ETM+	    30m
 Landsat 8	  2013    	Operational	  OLI	    30m
 ```
 
