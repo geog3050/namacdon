@@ -10,7 +10,7 @@ In order to use the code in this repository, some specific Python
 environments need to be installed.
 
 ```
-<b>Required:</b>
+Required:
 Google Earth Engine Python API (ee)
 ESRI ArcGIS Python API (arcpy)
 ```
