@@ -7,9 +7,9 @@ well as the code for the final project.
 # Table of Contents
 
 1. [Assignments](Assignments): All of the code for assignments in the class.
-2. [Example Code]("Example Code"): Short coding snippets that I have created for
+2. [Example Code](#Example Code): Short coding snippets that I have created for
 other projects or just for fun.
-3. [Final Project]("Final Project"): The repository for my final project code.
+3. [Final Project](#Final Project): The repository for my final project code.
 
 ## Getting Started
 
