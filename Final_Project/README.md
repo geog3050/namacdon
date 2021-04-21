@@ -20,10 +20,10 @@ The desired objectives of this project are to detect areas that have undergone g
 Google Earth Engine (GEE) is a server-based repository of imagery and coding tools that allows advanced mapping, analysis, and visualization operations to be performed with minimal client-side requirements. This means that users of the service do not need to have high-end computing equipment, expensive software packages, or even high-speed internet access, instead retaining all of these technologically-intensive requirements on the Google servers. GEE’s data catalog includes imagery from the major open-access, space-based Earth Observation (EO) systems, such as Landsat, MODIS, Sentinel, and others, as well as many derived products and other sources of geospatial data. For this project, we will be utilizing the Landsat program’s data.
 
 ```
-Satellite	Launched	Decommissioned	Sensor	Resolution
-Landsat 5	1984	2013	TM	30m
-Landsat 7	1999	Operational	ETM+	30m
-Landsat 8	2013	Operational	OLI	30m
+Satellite	  Launched	Decommissioned	Sensor	Resolution
+Landsat 5	  1984	    2013	          TM	    30m
+Landsat 7	  1999	    Operational	    ETM+	  30m
+Landsat 8	  2013    	Operational	    OLI	    30m
 ```
 
 Landsat is NASA and USGS’s primary EO system, with seven different satellite sensors named Landsat having been successfully gathering images of the Earth’s surface since the 1970s. Landsat 6 failed to achieve orbit and threatened the continuity of this dataset, but Landsat 5 was kept operational for an extraordinary 29 years. Landsat 8 was launched in 2013 and provides 16-day revisit ability at 30m MSI and 15m panchromatic from the Operational Land Imager (OLI) sensor, as well as thermal imagery from its Thermal Infrared Sensor (TIRS). Landsat 9, with an equivalent sensor package Landsat 8, is scheduled for launch in 2021 and will assume Landsat 7’s orbital path. There are numerous conflicts and major events that have occurred in this timeframe, at many scales and in many locations, making the long-baseline, highly accurate Landsat program an ideal source of RS data for studying violent conflict and its impacts. For this study in particular, I will use data from Landsats 5, 7, and 8 to cover the last 30 years, focusing on the Nagorno-Karabagh region and the changes in the landscape since the fall of the Soviet Union.
