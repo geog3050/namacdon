@@ -42,14 +42,14 @@ in ArcGIS for use in Deep Learning models. The pipeline allows the user to selec
 the area of interest, date ranges, and other aspects of the imagery to be retrieved,
 then prepares it in ArcGIS by developing labeled image chips in a DL model.
 
-### About the Author
+## About the Author
 
-## Background
+### Background
 
 Please see my <a href="https://geog3540.github.io/namacdon/images/MacDonald_CV.pdf">
 Curriculum Vitae</a> and <a href="https://geog3540.github.io/namacdon/bio/index.html">
 Biography</a>.
 
-### License
+## License
 
 All of the code herein is [MIT licenced](license.txt).
