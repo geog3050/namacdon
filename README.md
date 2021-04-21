@@ -4,6 +4,13 @@ This is the repository for my GEOG:5500 class at the University of Iowa. It
 contains the code developed for assignments and quizzes during the class, as
 well as the code for the final project.
 
+# Table of Contents
+
+1. [Assignments](Assignments): All of the code for assignments in the class.
+2. [Example Code](Example Code): Short coding snippets that I have created for
+other projects or just for fun.
+3. [Final Project](Final Project): The repository for my final project code.
+
 ## Getting Started
 
 ### Environments
