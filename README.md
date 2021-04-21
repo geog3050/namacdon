@@ -10,7 +10,7 @@ In order to use the code in this repository, some specific Python
 environments need to be installed.
 
 ```
-Required:
+<b>Required:</b>
 Google Earth Engine Python API (ee)
 ESRI ArcGIS Python API (arcpy)
 ```
@@ -31,7 +31,7 @@ preprocess and classify the imagery. While this does require a paid license to
 operate, the code is annotated so that you could replicate the steps in an
 open-source system such as QGIS.
 
-### Applications
+## Applications
 
 This code is designed around creating functional geoprocessing tools for expediting
 tasks and functions. The final project in particular is a suite of coding tools
