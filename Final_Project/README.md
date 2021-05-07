@@ -33,15 +33,6 @@ Landsat 8	  2013    	Operational	  OLI	    30m
 #### Other Data
 Political boundaries will be included to help identify regions and areas of interest. This will be done through Google Earth Engine’s repository of feature classes, as well as importing or creating polygons as needed (such as for unrecognized/informally-designated areas).
 
-### Methods
-Imagery was retrieved from GEE’s servers using a combination of Python libraries and built-in tools. Images were filtered by date and location to only include scenes relevant to the study, then preprocessed to remove clouds and other bad pixels. Finally, the images were processed into annual images and exported.
-
-Because we are using data from multiple sensors, we must first ensure that the data values from each system are harmonized. Following and adapting the GEE guide to harmonizing Landsat 7’s TM and ETM sensors with Landsat 8’s OLI, we can easily program the code to adjust the images to be similar enough to work with as a single collection. This results in one image collection of all the available Landsat 5, 7, and 8 imagery in our timeframe of interest.
-
-Next, while some products in GEE’s catalog come with indexes like NDVI already prepared, for the imagery collections we will be using this must be calculated as a function. GEE has the image method .normalizedDifference(), which takes two arguments and returns the formula (arg1-arg2)/(arg1+arg2), the formula for normalized difference. This formula normalizes the results of the difference between the two arguments to between [-1,1], making scale. For NDVI, this means taking the difference between the NIR and Red bands, or NDVI=  (NIR-RED)/(NIR+RED),  In GEE, the method normalizedDifference(‘NIR’,’RED’),  takes the value for the two bands specified at the same pixel location and executes the equation, resulting in an image of normalized difference pixels.
-
-With this harmonized and combined Landsat NDVI data, we can create a time-series of annual NDVI medians for the area of interest. This will be done by filtering our image collection by date, combining all of the available images inside the 365-span into a temporary collection, then returning a single image per year that contains the median value of each pixel. Iterating through each year sequentially, we produce a new image collection that has one median NDVI image per year of our study.
-
 ## Workflow
 
 ![workflow](https://github.com/geog3050/namacdon/blob/f680ff7b8a4695d713c7b11a1e4ecd8299ac1470/Final_Project/workflow.png)
