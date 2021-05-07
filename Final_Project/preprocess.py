@@ -6,7 +6,7 @@ import shutil
 arcpy.env.parallelProcessingFactor = "100%"
 arcpy.env.addOutputsToMap = False
 arcpy.env.overwriteOutput = True
-arcpy.env.processorType = "GPU"
+
 default_extent = "649947.8909 4410578.6392 714505.2748 4475136.0231"
 
 def preprocess(in_folder,clip_selector=False,clipping_extent=default_extent,bands=[4,3,2]):
