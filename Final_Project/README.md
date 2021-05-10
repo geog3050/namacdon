@@ -35,7 +35,7 @@ Political boundaries will be included to help identify regions and areas of inte
 
 ## Workflow
 
-![workflow](https://github.com/geog3050/namacdon/blob/f680ff7b8a4695d713c7b11a1e4ecd8299ac1470/Final_Project/workflow.png)
+![workflow](https://github.com/geog3050/namacdon/blob/1977f99eaa53b793e17098626025469c52dcc769/Final_Project/workflow.png)
 
 ## References
 ```
